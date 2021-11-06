@@ -7,7 +7,7 @@ public class ArrayFromPermutation {
 		buildArray(nums);
 		for(int a : nums)
 		{
-			System.out.println(a);
+			System.out.print(a+" ");
 		}
 	}
 	public static int[] buildArray(int[] nums) {
